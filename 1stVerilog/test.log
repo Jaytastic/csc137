@@ -1,0 +1,43 @@
+Compiling VVP ...
+ ... VVP file version 11.0 (devel)
+Compile cleanup...
+ ...       14 functors (net_fun pool=524288 bytes)
+                 11 logic
+                  0 bufif
+                  0 resolv
+                  3 signals
+ ...       14 filters (net_fil pool=524288 bytes)
+ ...       61 opcodes (24576 bytes)
+ ...       25 nets
+ ...       14 vvp_nets (1048544 bytes)
+ ...        0 arrays (0 words)
+ ...        0 memories
+                  0 logic (0 words)
+                  0 real (0 words)
+ ...        2 scopes
+Running ...
+ ...execute EndOfCompile callbacks
+ ...propagate initialization events
+ ...execute StartOfSim callbacks
+ ...run scheduler
+Time  i2  i1  i0   o0  o1  o2  o3  o4  o5  o6  o7
+----  ----------   ------------------------------
+   0   0   0   0    1   0   0   0   0   0   0   0
+   1   0   0   1    0   1   0   0   0   0   0   0
+   2   0   1   0    0   0   1   0   0   0   0   0
+   3   0   1   1    0   0   0   1   0   0   0   0
+   4   1   0   0    0   0   0   0   1   0   0   0
+   5   1   0   1    0   0   0   0   0   1   0   0
+   6   1   1   0    0   0   0   0   0   0   1   0
+   7   1   1   1    0   0   0   0   0   0   0   1
+ ...execute Postsim callbacks
+Event counts:
+           9 time steps (pool=113)
+          10 thread schedule events
+          20 assign events
+             ...assign(vec4) pool=9362
+             ...assign(vec8) pool=204
+             ...assign(real) pool=256
+             ...assign(word) pool=128
+             ...assign(word/r) pool=204
+         116 other events (pool=4096)
